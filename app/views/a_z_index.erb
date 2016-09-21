@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <div class="a_z_index_header" align="center">
+        <h1>Kitch-Tips Index</h1>
+        <hr width="75%">
+      </div>
+      <div class="a_z_index" align="center">
+        <!-- need to create jump links to letter sections -->
+        <h2><a href="/a">A</a> | <a href="/b">B</a> | <a href="/c">C</a> |
+        <a href="/d">D</a> | <a href="/e">E</a> | <a href="/f">F</a> |
+        <a href="/g">G</a> | <a href="/h">H</a> | <a href="/i">I</a> |
+        <a href="/j">J</a> | <a href="/k">K</a> | <a href="/l">L</a> |
+        <a href="/m">M</a> | <a href="/n">N</a> | <a href="/o">O</a> |
+        <a href="/p">P</a> | <a href="/q">Q</a> | <a href="/r">R</a> |
+        <a href="/s">S</a> | <a href="/t">T</a> | <a href="/u">U</a> |
+        <a href="/v">V</a> | <a href="/w">W</a> | <a href="/x">X</a> |
+        <a href="/y">Y</a> | <a href="/z">Z</a></h2>
+        <hr width="75%">
+      </div>
+    </head>
+
+    <body>
+      <div class="tip_list">
+        <!-- need to alphabetize and set into letter sections -->
+        <% @tips.each do |tip| %>
+          <h3><a href="/<%= tip.id %>/show"><%= tip.main_ingredient %></a></h3>
+        <% end %>
+        <hr width="75%">
+      </div>
+
+      <div class="return_links" align="center">
+        <h3>Return to your <a href="/user">Profile Page</a> or the <a href="/">Home Page</a></h3>
+        <p>*To edit or delete a tip, go to your profile page and click on that tips link*</p>
+      </div>
+    </body>
+  </html>

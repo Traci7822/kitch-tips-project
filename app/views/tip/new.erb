@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <h1>Create a new Kitch-Tip!</h1>
+    </head>
+
+    <body>
+      <div class="new_tip">
+        <form method="post" action="/new">
+          <div class="flash" style="color:red;">
+            <% if flash[:message] %>
+              <%= flash[:message] %>
+            <% end %>
+          </div>
+          <h3>Tip Name</h3><input type="text" name="name">
+          <!-- drop down list of ingredients or create new -->
+          <h3>Main Ingredient</h3><input type="text" name="main_ingredient">
+          <h3>Describe your Kitch-Tip</h3>
+          <textarea rows=6 cols=50 type="text" name="tip"></textarea>
+          <br></br>
+          <input type="submit" value="Create Tip">
+        </form>
+      </div>
+    </body>
+  </html>

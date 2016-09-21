@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <h2>Welcome to Kitch-Tips!</h2>
+    </head>
+
+    <body>
+      <div class="signup">
+        <h3>Sign up for a Kitch-Tips account</h3>
+        <div class="flash" style="color:red;">
+          <% if flash[:message] %>
+            <%= flash[:message] %>
+          <% end %>
+        </div>
+        <form method="post" action="/signup">
+          <h4>Username:</h4><input type="text" name="username" id="username">
+          <h4>Email:</h4><input type="text" name="email" id="email">
+          <h4>Password:</h4><input type="password" name="password" id="password">
+          <br></br>
+          <input type="submit" value="Sign Up">
+        </form>
+        <h4>Already have an account? <a href="/login">Log In</a><h4>
+      </div>
+    </body>
+  </html>

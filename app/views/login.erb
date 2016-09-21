@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <h2>Welcome to Kitch-Tips!</h2>
+    </head>
+
+    <body>
+      <div class="login">
+        <h3>Sign in to your Kitch-Tips account</h3>
+        <div class="flash" style="color:red;">
+          <% if flash[:message] %>
+            <%= flash[:message] %>
+          <% end %>
+        </div>
+        <form method="post" action="/login">
+          <h4>Username:</h4><input type="text" name="username" id="username">
+          <h4>Password:</h4><input type="password" name="password" id="password">
+          <br></br>
+          <input type="submit" value="Log In">
+        </form>
+        <br>
+      </div>
+
+      <div class="options">
+          <h4><a href="/signup">Don't have an account? Sign up here!</a></h4>
+          <hr width="25%" align="left">
+          <!-- add functionality for lost username and password below -->
+          <h4>I forgot my username and/or password</h4>
+          <hr width="25%" align="left">
+          <h4><a href="/">Go back to the home page</a></h4>
+      </div>
+    </body>
+  </html>
