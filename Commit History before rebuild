@@ -1,0 +1,48 @@
+e99805c HEAD@{6}: commit: updated readme
+cb72859 HEAD@{7}: commit: added flash messages to new tip page
+cf44fe3 HEAD@{8}: commit: added flash messages to login
+1b84b4c HEAD@{9}: commit: added flash message to signup
+e5c6694 HEAD@{10}: commit: added flash gem
+ab8b1f8 HEAD@{11}: commit: added comments and tweaked appearance
+9cc7783 HEAD@{12}: commit: secured edit page and formatted index
+c7089dd HEAD@{13}: commit: commented a_z_index
+e266c22 HEAD@{14}: commit: output tips to index and created show pages
+45a5695 HEAD@{15}: reset: moving to HEAD^
+7bc5517 HEAD@{16}: checkout: moving from 12557136c305363909a9949f13cdeac40d824c26 to master
+1255713 HEAD@{17}: reset: moving to HEAD^
+9d56673 HEAD@{18}: reset: moving to HEAD^
+3a4d512 HEAD@{19}: reset: moving to HEAD^
+45a5695 HEAD@{20}: reset: moving to HEAD^
+7bc5517 HEAD@{21}: checkout: moving from 45a569538a3c8366bfb7662ee8bde122227d360d to 7bc5517
+45a5695 HEAD@{22}: checkout: moving from master to 45a5695
+7bc5517 HEAD@{23}: commit: created a_z_index route and functionality
+45a5695 HEAD@{24}: commit: added routes to and started building a_z index page
+3a4d512 HEAD@{25}: commit: added link to profile to view kitch-tips index
+9d56673 HEAD@{26}: commit: edited index appearance
+1255713 HEAD@{27}: commit: reversed order of most recent tips displayed on index
+5b15357 HEAD@{28}: commit: created delete tip option, routes, and functionality
+3f539ad HEAD@{29}: commit: functionality to edit a tip implemented
+7163cc6 HEAD@{30}: commit: built edit tip page and form
+64e6f24 HEAD@{31}: commit: created and routed to edit tip page
+bb34027 HEAD@{32}: commit: showing user tips on profile page
+035d569 HEAD@{33}: commit: setup profile page to hold users tips
+2446f92 HEAD@{34}: commit: pulling most recent tips to index page
+3a8ab19 HEAD@{35}: commit: built logout functionality
+143343b HEAD@{36}: commit: created new tip routes and form
+d9af105 HEAD@{37}: commit: built a-z index for tips
+bb9b40a HEAD@{38}: commit: built post login routes
+74e9fa3 HEAD@{39}: commit: added option links to login page
+56ad50f HEAD@{40}: commit: created login page
+1b118d6 HEAD@{41}: commit: updated index and created profile page
+0379038 HEAD@{42}: commit: built post signup routes
+216ae92 HEAD@{43}: commit: created validify module
+5c76f4e HEAD@{44}: commit: created index and sign up pages
+df028e9 HEAD@{45}: commit: initialized controllers
+fcaa647 HEAD@{46}: commit: created index
+47ac2ce HEAD@{47}: commit: created models
+1ecf7b0 HEAD@{48}: commit: created controllers
+16bad52 HEAD@{49}: commit: created users and tips tables
+46bebbd HEAD@{50}: commit: created spec helper
+e6afb58 HEAD@{51}: commit: created environment, gem, config, rake, and spec files
+82b1752 HEAD@{52}: commit: Made initial readme
+8fd6c42 HEAD@{53}: clone: from git@github.com:Traci7822/kitch-tips.git
