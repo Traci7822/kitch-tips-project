@@ -36,6 +36,14 @@ class TipsController < ApplicationController
 
    get '/a_z_index' do
      @tips = Tip.all
+     @letter_tips = []
+     def letter_list(letter)
+       @tips.each do |tip|
+         if tip.main_ingredient.downcase.split("").first == letter.downcase
+           @letter_tips << tip
+         end
+       end
+     end
      erb :a_z_index
    end
 
