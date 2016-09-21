@@ -43,6 +43,7 @@ class TipsController < ApplicationController
            @letter_tips << tip
          end
        end
+       @letter_tips.sort_by! {|x| x.main_ingredient.downcase}
      end
      erb :a_z_index
    end

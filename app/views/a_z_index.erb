@@ -21,6 +21,11 @@
     </head>
 
     <body>
+      <% letter_list("b") %>
+        <% @letter_tips.each do |tip| %>
+          <h3><a href="/<%= tip.id %>/show"><%= tip.main_ingredient %></a></h3>
+        <% end %>
+
       <div class="tip_list">
         <!-- need to alphabetize and set into letter sections -->
         <% @tips.each do |tip| %>
