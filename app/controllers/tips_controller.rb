@@ -53,4 +53,4 @@ class TipsController < ApplicationController
      @tip = Tip.find_by(id: params[:id])
      erb :"/tip/show"
    end
- end
+end
