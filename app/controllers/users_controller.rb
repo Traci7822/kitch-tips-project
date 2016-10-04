@@ -28,7 +28,7 @@ class UsersController < ApplicationController
       flash[:message] = "Tip with this name already exists, please try again"
       redirect '/new'
     else
-      tip = Tip.create(name: params[:name], main_ingredient: params[:main_ingredient], tip: params[:tip], user_id: session[:user_id])
+      current_user.tips.create(name: params[:name], main_ingredient: params[:main_ingredient], tip: params[:tip])
       redirect "/user"
     end
   end

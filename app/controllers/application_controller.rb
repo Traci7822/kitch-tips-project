@@ -12,14 +12,10 @@ class ApplicationController < Sinatra::Base
   include Validify::InstanceMethods
 
   get '/' do
-    @sorted_tips = []
-    @recent_tips = []
-    Tip.all.each do |tip|
-      @sorted_tips << tip.created_at
+    @recent_tips = Tip.all.sort_by do |tip|
+      tip.created_at
     end
-    @sorted_tips.reverse[0..4].each do |time|
-      @recent_tips << Tip.find_by(created_at: time)
-    end
+    @recent_tips = @recent_tips.reverse[0..4]
     erb :index
   end
 

@@ -13,6 +13,8 @@ gem 'pry'
 gem 'bcrypt'
 gem 'tux'
 gem 'rack-flash3'
+gem 'sass'
+gem 'rack-coffee'
 
 group :test do
   gem 'rspec'
