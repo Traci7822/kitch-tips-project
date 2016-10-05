@@ -1,0 +1,32 @@
+.header_text {
+  font-family: "GT-Walsheim-Medium", Arial, sans-serif;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+#header {
+  text-align: right;
+  margin-right: -20px;
+  font-size: 60px;
+  color: white;
+  text-shadow: #000 0px 0px 5px;
+}
+
+#header_info {
+  text-align: center;
+  margin-left: 450px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #574B53;
+  text-shadow: #ffffff 0px 0px 5px;
+  width: 50%;
+}
+.header_background {
+  background: url("../images/veg_header.jpg") no-repeat center;
+  padding: 100px 150px 100px 150px;
+  background-size: 100%;
+}
+
+.account {
+  font-family: "GT-Walsheim-Medium", Arial, sans-serif;
+}
